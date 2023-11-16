@@ -1,3 +1,4 @@
+Oh, hey! Welcome to my page!
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,11 +6,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
+body, h1, h2, h3, h4, h5, h6 {font-family: "Beth Ellen", cursive;}
+p {font-family: "Quicksand", sans-serif;}
+.w3-row-padding img {margin-bottom: 12px;}
 .bgimg {
   background-position: center;
   background-repeat: no-repeat;
@@ -20,6 +23,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </style>
 </head>
 <body>
+</body>
+</html>
+
 
 <!-- Sidebar with image -->
 <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
@@ -32,10 +38,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-remove"></i>
   </a>
   <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">writing</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">about</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">get in touch</a>
   </div>
 </nav>
 
@@ -47,18 +53,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
-    <h1 class="w3-jumbo"><b>Allie Cavallero</b></h1>
-    <p>Writer</p>
+    <h1 class="w3-jumbo"><b>Alexandria Cavallaro</b></h1>
+    <h2>Writer (daylighting in admin) based in the Bay Area.</p>
     <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
     <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
     <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-      <i class="fa fa-download"></i> Download Resume
+     </i> view resume
     </button>
   </header>
 
   <!-- Portfolio Section -->
   <div class="w3-padding-32 w3-content" id="portfolio">
-    <h2 class="w3-text-grey">My Portfolio</h2>
+    <h2 class="w3-text-grey">Writing</h2>
     <hr class="w3-opacity">
 
     <!-- Grid for photos -->
@@ -84,7 +90,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
     <h2>About</h2>
     <hr class="w3-opacity">
-    <p>Allie is a big fan of snails even though they are living lava lamps.
+    <p>After hop-scotching through several colleges across the country, Allie eventually recieved her degree in Literary Arts (creative ficton writing) from Brown University. She was the recipient of honors for her senior thesis (a full-length novel she wrote and edited during her time at Brown), and awarded best paper in the History of Art and Architecture department during the 2018-2019 academic year by department committee. She graduated with a 4.0.
+
+      She's currently editing her second novel, and will be seeking representation for it soon. Allie is also the author of a short story collection and a novella. 
+    
+
     </p>
     <h3 class="w3-padding-16">My Skills</h3>
     <p class="w3-wide">Photography</p>
@@ -185,15 +195,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-    </div>
 
-    <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
-
-    <p>Lets get in touch. Send me a message:</p>
+    <p>Let's get in touch! Send me a message:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
@@ -207,6 +210,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </form>
   <!-- End Contact Section -->
   </div>
+  </div>
+
 
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
@@ -216,7 +221,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <p class="w3-medium">Powered by the saintlike patience of N.R. & also ChatGPT</a></p>
   <!-- End footer -->
   </footer>
 
